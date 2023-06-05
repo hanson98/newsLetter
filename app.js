@@ -49,7 +49,7 @@ app.post("/", (req, res) => {
   request.end();
 });
 
-app.use("/failer", (req, res) => {
+app.post("/failure", (req, res) => {
   res.redirect("/");
 });
 
